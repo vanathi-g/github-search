@@ -2,7 +2,7 @@
 
 Steps to run the project:
 
-- Clone using `git clone https://github.com/arjithn/github-api-app.git`
-- Run `cd github-api-app`
+- Clone using `git clone https://github.com/vanathi-g/github-search.git`
+- Run `cd github-search`
 - Run `npm install`
 - Run `npm start`
