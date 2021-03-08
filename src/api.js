@@ -12,11 +12,11 @@ const getSearchUsersURL = (text) =>
     `https://api.github.com/search/users?q=${text}&client_id=${githubClientId}&client_secret=${githubClientSecret}`
 
 // Get User
-const getUserURL = async (username) =>
+const getUserURL = (username) =>
     `https://api.github.com/users/${username}?client_id=${githubClientId}&client_secret=${githubClientSecret}`
 
 // Get Repos
-const getUserReposURL = async (username) =>
-    `https://api.github.com/users/${username}/repos?per_page=5&sort=created:asc&client_id=${githubClientId}&client_secret=${githubClientSecret}`
+const getUserReposURL = (username) =>
+    `https://api.github.com/users/${username}/repos?per_page=5&sort=updated:desc&client_id=${githubClientId}&client_secret=${githubClientSecret}`
 
 export { getUserURL, getUserReposURL, getSearchUsersURL }
