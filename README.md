@@ -3,6 +3,10 @@ Github Users Search Application
 
 ## About: 
 A responsive React web application that uses the GitHub API to search for users and display their top 5 repositories. The styling was done completely using the Tailwind CSS framework. 
+
+
+
+![Search UI](/images/Screenshot%20from%202021-03-08%2021-17-20.png)
 ***
 
 ## How to clone and run this project:
